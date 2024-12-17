@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const searchButton = document.querySelector(".search-btn");
 
     
-    const API_KEY = 'Es1zqvQv'; // Your API key
+    const API_KEY = 'API_KEY'; // Your API key
     const API_URL = 'https://api.rescuegroups.org/v5/public/animals/search';
 
     let currentPage = 1;
