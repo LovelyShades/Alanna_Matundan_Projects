@@ -1,0 +1,95 @@
+/* Favorited Pets Page Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f4f4f4;
+}
+
+/* Container Styles */
+.favorited-container {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+/* Header Styles */
+.favorited-header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.favorited-header h1 {
+    font-size: 2rem;
+    color: #003366;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    border-bottom: 3px dashed #003366;
+    padding-bottom: 10px;
+}
+
+/* Favorited List Styles */
+.favorited-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.favorited-item {
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    max-width: 300px;
+    flex: 1 1 calc(33.333% - 20px);
+}
+
+.favorited-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+}
+
+.favorited-item h3 {
+    font-size: 1.8rem;
+    margin: 10px 0;
+    color: #003366;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+}
+
+.favorited-item p {
+    font-size: 1rem;
+    color: #666;
+}
+
+.favorited-item .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #003366;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    text-decoration: none;
+    font-size: 1.2rem;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+}
+
+.favorited-item .btn:hover {
+    background-color: #002244;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .favorited-list {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .favorited-item {
+        flex: 1 1 100%;
+    }
+}

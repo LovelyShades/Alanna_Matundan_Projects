@@ -1,0 +1,299 @@
+/* Browse Page Styles */
+.browse-container {
+    display: flex;
+    /* Use flexbox for layout */
+    padding: 20px;
+    /* Add padding around the container */
+    background-color: #f4f4f4;
+    /* Light grey background color */
+    flex-direction: column;
+    /* Stack sidebar and gallery vertically */
+}
+
+/* Sidebar Styles */
+.sidebar {
+    flex: 1;
+    /* Sidebar takes up one part of the flex container */
+    background-color: #fff;
+    /* White background color for the sidebar */
+    border-radius: 15px;
+    /* Rounded corners */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    /* Shadow for depth */
+    padding: 15px;
+    /* Padding inside the sidebar */
+    margin-bottom: 20px;
+    /* Space between sidebar and gallery */
+    position: relative;
+    /* Position relative for absolute positioning of elements inside */
+}
+
+/* Button to toggle the filter section visibility */
+.toggle-btn {
+    display: block;
+    /* Make the button a block element */
+    width: 100%;
+    /* Full width of the sidebar */
+    padding: 10px;
+    /* Padding inside the button */
+    background-color: #003366;
+    /* Dark blue background color */
+    color: #fff;
+    /* White text color */
+    border: none;
+    /* Remove default border */
+    border-radius: 15px;
+    /* Rounded corners */
+    font-size: 1rem;
+    /* Font size */
+    cursor: pointer;
+    /* Pointer cursor on hover */
+    transition: background-color 0.3s ease;
+    /* Smooth transition on hover */
+    margin-bottom: 10px;
+    /* Space between button and filter content */
+}
+
+/* Hover state for the toggle button */
+.toggle-btn:hover {
+    background-color: #002244;
+    /* Darker blue on hover */
+}
+
+/* Styles for the filter content */
+.filter-content {
+    display: block;
+    /* Default display */
+    transition: max-height 0.3s ease;
+    /* Smooth transition for height change */
+    overflow: hidden;
+    /* Hide overflowing content */
+    max-height: 0;
+    /* Collapsed height */
+}
+
+/* Expanded state for the filter content */
+.filter-content.show {
+    max-height: 500px;
+    /* Adjust this value as needed */
+}
+
+/* Sidebar heading styles */
+.sidebar h3 {
+    font-size: 2rem;
+    /* Font size for headings */
+    margin-bottom: 20px;
+    /* Space below the heading */
+    color: #003366;
+    /* Dark blue text color */
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    /* Font style */
+    padding-bottom: 10px;
+    /* Padding below the heading text */
+    border-bottom: 2px solid #003366;
+    /* Bottom border with same dark blue color */
+}
+
+/* Sidebar label styles */
+.sidebar label {
+    display: block;
+    /* Make labels block elements */
+    margin-bottom: 10px;
+    /* Space below each label */
+    font-size: 1.2rem;
+    /* Font size */
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    /* Font style */
+    color: #003366;
+    /* Dark blue text color */
+}
+
+/* Styles for select and text input elements in the sidebar */
+.sidebar select,
+.sidebar input[type="text"] {
+    width: calc(95% - 22px);
+    /* Width calculation to fit within the sidebar */
+    padding: 12px;
+    /* Padding inside the input elements */
+    border-radius: 15px;
+    /* Rounded corners */
+    border: 2px solid #ddd;
+    /* Light grey border */
+    font-size: 1rem;
+    /* Font size */
+    margin-bottom: 20px;
+    /* Space below each input element */
+    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.1);
+    /* Inner shadow for depth */
+}
+
+/* Focus state for select and text input elements */
+.sidebar select:focus,
+.sidebar input[type="text"]:focus {
+    border-color: #003366;
+    /* Dark blue border on focus */
+    outline: none;
+    /* Remove default outline */
+    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.2);
+    /* Inner shadow for focus state */
+}
+
+/* Styles for the search button in the sidebar */
+.sidebar .search-btn {
+    display: block;
+    /* Make the button a block element */
+    width: 100%;
+    /* Full width of the sidebar */
+    padding: 12px;
+    /* Padding inside the button */
+    background-color: #003366;
+    /* Dark blue background color */
+    color: #fff;
+    /* White text color */
+    border: none;
+    /* Remove default border */
+    border-radius: 15px;
+    /* Rounded corners */
+    font-size: 1.2rem;
+    /* Font size */
+    cursor: pointer;
+    /* Pointer cursor on hover */
+    transition: background-color 0.3s ease;
+    /* Smooth transition on hover */
+}
+
+/* Hover state for the search button */
+.sidebar .search-btn:hover {
+    background-color: #002244;
+    /* Darker blue on hover */
+}
+
+/* Pet Gallery Styles */
+.pet-gallery {
+    display: grid;
+    /* Use grid layout for the gallery */
+    grid-template-columns: repeat(4, 1fr);
+    /* Four columns of equal width */
+    gap: 20px;
+    /* Space between cards */
+}
+
+/* Styles for each pet card */
+.pet-card {
+    background-color: #fff;
+    /* White background color */
+    border-radius: 15px;
+    /* Rounded corners */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    /* Shadow for depth */
+    padding: 20px;
+    /* Padding inside the card */
+    text-align: center;
+    /* Center text inside the card */
+    display: flex;
+    /* Use flexbox for internal layout */
+    flex-direction: column;
+    /* Stack content vertically */
+    align-items: center;
+    /* Center content horizontally */
+    justify-content: space-between;
+}
+
+/* Styles for pet card images */
+.pet-card img {
+    width: auto;
+    height: 220px;
+    /* Maintain aspect ratio */
+    border-radius: 15px;
+    /* Rounded corners */
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+/* Pet Card Text Styles */
+.pet-card h3 {
+    font-size: 1.8rem;
+    /* Font size for pet names */
+    margin: 10px 0;
+    /* Space above and below the text */
+    color: #003366;
+    /* Dark blue text color */
+}
+
+.pet-card p {
+    font-size: 1rem;
+    /* Font size for pet details */
+    color: #666;
+    /* Grey text color */
+}
+
+/* Styles for the adopt button */
+.pet-card .adopt-btn {
+    display: inline-block;
+    /* Inline-block button */
+    padding: 10px 20px;
+    /* Padding inside the button */
+    background-color: #003366;
+    /* Dark blue background color */
+    color: #fff;
+    /* White text color */
+    border: none;
+    /* Remove default border */
+    border-radius: 15px;
+    /* Rounded corners */
+    text-decoration: none;
+    /* Remove underline from links */
+    font-size: 1.2rem;
+    /* Font size */
+    transition: background-color 0.3s ease;
+    /* Smooth transition on hover */
+    cursor: pointer;
+    /* Pointer cursor on hover */
+    margin-top: auto;
+}
+
+/* Hover state for the adopt button */
+.pet-card .adopt-btn:hover {
+    background-color: #002244;
+    /* Darker blue on hover */
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+    .pet-gallery {
+        grid-template-columns: repeat(2, 1fr);
+        /* Two columns for medium-sized screens */
+    }
+}
+
+@media (max-width: 768px) {
+    header nav ul {
+        display: none;
+        /* Hide menu on small screens */
+    }
+
+    .menu-toggle {
+        display: block;
+        /* Show hamburger menu on small screens */
+    }
+
+    .browse-container {
+        flex-direction: column;
+        /* Stack sidebar and gallery vertically on small screens */
+    }
+
+    .sidebar {
+        margin-bottom: 20px;
+        /* Space between sidebar and gallery on small screens */
+    }
+
+    .pet-gallery {
+        grid-template-columns: 1fr;
+        /* Single column on small screens */
+    }
+
+    .sidebar .search-btn {
+        font-size: 1rem;
+        /* Smaller font size for search button on small screens */
+    }
+}

@@ -1,0 +1,47 @@
+/* Pet Spotlight Carousel Styles */
+.pet-spotlight-carousel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-x: auto;
+    gap: 20px;
+    padding: 20px;
+    scroll-snap-type: x mandatory;
+    /* Added snap for better scrolling experience */
+}
+
+.pet-spotlight {
+    background: #fff;
+    border-radius: 15px;
+    /* Slightly increased border-radius for a softer look */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    /* Darker shadow for more depth */
+    padding: 20px;
+    max-width: 300px;
+    text-align: center;
+    scroll-snap-align: center;
+    /* Center item in the carousel view */
+    transition: transform 0.3s ease;
+    /* Smooth transition for hover effect */
+}
+
+.pet-spotlight:hover {
+    transform: scale(1.05);
+    /* Slight zoom effect on hover */
+}
+
+.pet-spotlight img {
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+    /* Match the border-radius with the container */
+}
+
+.pet-spotlight h3 {
+    margin-top: 10px;
+    font-size: 1.5rem;
+    color: #003366;
+    /* Added color for better readability */
+    font-weight: bold;
+    /* Added bold to highlight the pet's name */
+}

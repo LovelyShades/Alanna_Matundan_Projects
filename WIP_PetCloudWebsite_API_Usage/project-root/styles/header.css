@@ -1,0 +1,107 @@
+/* Header Styles */
+header {
+    background-color: #022141;
+    color: #fff;
+    padding: 5px 20px;
+    /* Reduced padding to make the header shorter vertically */
+    position: relative;
+    z-index: 10;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo {
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin: 0;
+    /* Adjust margin if necessary to align content */
+    padding: 6px;
+}
+
+header .menu-toggle {
+    display: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: #fff;
+    position: absolute;
+    top: 5px;
+    /* Adjusted to fit the new header height */
+    right: 20px;
+}
+
+/* Menu Styles */
+nav {
+    flex-grow: 1;
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    padding: 0px;
+    justify-content: flex-end;
+    align-items: center;
+    margin: -50px;
+    /* Removed margin-top to align with header changes */
+}
+
+nav ul li {
+    margin: 20 15px;
+    padding: 10px;
+    margin-top: -34px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1rem;
+    padding: 10px;
+    display: block;
+    transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: #002244;
+}
+
+/* Show hamburger menu on small screens */
+@media (max-width: 768px) {
+    header .menu-toggle {
+        display: block;
+    }
+
+    nav ul {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 60px;
+        right: 20px;
+        background: #003366;
+        width: 30%;
+        border-radius: 20px;
+        padding: 10px;
+        margin: 0;
+    }
+
+    nav ul.active {
+        display: flex;
+    }
+
+    nav ul li {
+        margin: 0;
+        border-bottom: 1px solid #003366;
+    }
+
+    nav ul li:last-child {
+        border-bottom: none;
+    }
+
+    nav ul li a {
+        padding: 15px;
+        color: #ffffff;
+        text-align: center;
+        font-size: 1.2rem;
+    }
+}

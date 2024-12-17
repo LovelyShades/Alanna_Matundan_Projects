@@ -1,0 +1,106 @@
+/* Sign In & Sign Up Section Styles */
+.signin-section,
+.signup-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: calc(100vh - 120px);
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+.signin-section .container,
+.signup-section .container {
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    /* Darker shadow for more depth */
+    padding: 30px;
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+    margin: 20px;
+    /* Added margin for spacing */
+}
+
+.signin-section h1,
+.signup-section h1 {
+    font-size: 2.2rem;
+    /* Slightly increased font size for better visibility */
+    margin-bottom: 20px;
+    color: #003366;
+}
+
+.form-group {
+    margin-bottom: 20px;
+    /* Increased margin for better spacing */
+    text-align: left;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 8px;
+    /* Increased margin for better readability */
+    font-weight: bold;
+    color: #003366;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 12px;
+    /* Increased padding for better touch targets */
+    border-radius: 8px;
+    /* Increased border-radius for a softer look */
+    border: 1px solid #ddd;
+    font-size: 1rem;
+    transition: border-color 0.3s ease;
+    /* Added transition for focus state */
+}
+
+.form-group input:focus {
+    border-color: #003366;
+    outline: none;
+}
+
+.btn {
+    display: inline-block;
+    padding: 12px 24px;
+    /* Increased padding for a more substantial button */
+    background-color: #003366;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    /* Matching border-radius with input fields */
+    text-decoration: none;
+    font-size: 1.1rem;
+    /* Slightly increased font size */
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    /* Added transform transition */
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #002244;
+    transform: scale(1.05);
+    /* Added scale effect on hover */
+}
+
+.signin-link,
+.signup-link {
+    margin-top: 20px;
+    font-size: 1rem;
+    color: #666;
+}
+
+.signin-link a,
+.signup-link a {
+    color: #003366;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.signin-link a:hover,
+.signup-link a:hover {
+    text-decoration: underline;
+    /* Changed to underline for better visibility */
+}

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Favorited Pets | Pet Adoption Center</title>
+    <!-- Link to the header styles -->
+    <link rel="stylesheet" href="../styles/header.css">
+    <!-- Link to the favorited pets section styles -->
+    <link rel="stylesheet" href="../styles/favorited.css">
+    <!-- Link to the footer styles -->
+    <link rel="stylesheet" href="../styles/footer.css">
+    <!-- Link to the general page styles -->
+    <link rel="stylesheet" href="../styles/global.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="logo">Pet Adoption Center</div>
+            <div class="menu-toggle">☰</div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="browse.html">Browse Pets</a></li>
+                    <li><a href="favorited.html">Favorited Pets</a></li>
+                    <li><a href="signin.html">Sign In</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Favorited Pets Section -->
+    <section class="favorited-container">
+        <div class="favorited-header">
+            <h1>Your Favorited Pets</h1>
+        </div>
+        <p>Here are the pets you’ve marked as favorites. Click "View Details" to see more about them or "Remove from
+            Favorites" to unmark them.</p>
+
+        <div class="favorited-list">
+            <div class="favorited-item">
+                <img src="images/favorite1.jpg" alt="Bella">
+                <h3>Bella</h3>
+                <p>A sweet dog who loves to cuddle.</p>
+                <a href="pet-details.html?id=1" class="btn">View Details</a>
+                <button class="btn remove-favorite">Remove from Favorites</button>
+            </div>
+            <div class="favorited-item">
+                <img src="images/favorite2.jpg" alt="Max">
+                <h3>Max</h3>
+                <p>An energetic cat who loves to play.</p>
+                <a href="pet-details.html?id=2" class="btn">View Details</a>
+                <button class="btn remove-favorite">Remove from Favorites</button>
+            </div>
+            <!-- Add more pet cards as needed -->
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-links">
+            <a href="index.html">Home</a>
+            <a href="browse.html">Browse Pets</a>
+            <a href="favorited.html">Favorited Pets</a>
+            <a href="signin.html">Sign In</a>
+        </div>
+        <p>&copy; 2024 Pet Adoption Center. All rights reserved.</p>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="../scripts/main.js"></script>
+    <script src="../scripts/favorited.js"></script>
+</body>
+
+</html>

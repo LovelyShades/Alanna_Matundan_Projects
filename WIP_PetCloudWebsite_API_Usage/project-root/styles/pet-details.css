@@ -1,0 +1,105 @@
+#pet-details-container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    /* White background */
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    color: #333333;
+    /* Dark grey text color for readability */
+    overflow: hidden;
+    position: relative;
+}
+
+/* Pet Images */
+.pet-images {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.pet-images img {
+    max-width: 100%;
+    /* Adjust to prevent images from exceeding container width */
+    height: auto;
+    /* Maintain aspect ratio */
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.pet-images img.main-image {
+    max-width: 400px;
+    /* Set a maximum width for the main image */
+    width: 100%;
+    /* Ensure it scales responsively */
+}
+
+.pet-images img.main-image:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Pet Details Text */
+h2 {
+    font-size: 2.5rem;
+    color: #003366;
+    /* Dark blue color for headings */
+    margin-bottom: 15px;
+    text-align: center;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+h2:hover {
+    color: #002244;
+    /* Darker blue on hover */
+}
+
+p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin-bottom: 10px;
+    color: #555555;
+    /* Grey color for text */
+}
+
+/* Adopt Button */
+.adopt-btn {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #003366;
+    color: #ffffff;
+    border: none;
+    border-radius: 15px;
+    text-decoration: none;
+    font-size: 1.2rem;
+    text-align: center;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    cursor: pointer;
+    margin-top: 20px;
+    display: block;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.adopt-btn:hover {
+    background-color: #002244;
+    transform: scale(1.05);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    #pet-details-container {
+        padding: 15px;
+    }
+
+    .pet-images {
+        flex-direction: column;
+    }
+}
