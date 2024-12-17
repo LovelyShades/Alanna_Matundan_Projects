@@ -1,4 +1,5 @@
 These are my projects that I have worked on while pursing my degree in Computer Science! 
+
 Includes:
 
 Champion_Battle_Game
