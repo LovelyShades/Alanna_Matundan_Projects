@@ -1,0 +1,266 @@
+Fall2023 - UTSA - CS1083 - Section 001 - Project 2 - Cyclone - written by Alanna Matundan
+Please, enter the number of cyclones in the database (Max 50): 122
+Invalid value, please, try again.
+Please, enter the number of cyclones in the database (Max 50): -25
+Invalid value, please, try again.
+Please, enter the number of cyclones in the database (Max 50): 10
+
+MAIN MENU: 
+0 - Exit, 1 - Add/Update a cyclone, 2 - Summary, 3 - Clear Database, 4 - Show Cyclones, 5 - Swap Cyclones
+Select an option: 9
+Invalid value, please, try again.
+
+MAIN MENU: 
+0 - Exit, 1 - Add/Update a cyclone, 2 - Summary, 3 - Clear Database, 4 - Show Cyclones, 5 - Swap Cyclones
+Select an option: 1
+Enter the index (0 to 9): 15
+Invalid value, please, try again.
+Enter the index (0 to 9): 32
+Invalid value, please, try again.
+Enter the index (0 to 9): 8
+The current wind speed of the cyclone at 8 is: 0
+Enter the new wind speed (0 - 1000): 34
+
+MAIN MENU: 
+0 - Exit, 1 - Add/Update a cyclone, 2 - Summary, 3 - Clear Database, 4 - Show Cyclones, 5 - Swap Cyclones
+Select an option: 4
+LIST OF Cyclones' Wind Speed
+Cyclone[0]: 0
+Cyclone[1]: 0
+Cyclone[2]: 0
+Cyclone[3]: 0
+Cyclone[4]: 0
+Cyclone[5]: 0
+Cyclone[6]: 0
+Cyclone[7]: 0
+Cyclone[8]: 34
+Cyclone[9]: 0
+
+MAIN MENU: 
+0 - Exit, 1 - Add/Update a cyclone, 2 - Summary, 3 - Clear Database, 4 - Show Cyclones, 5 - Swap Cyclones
+Select an option: 1
+Enter the index (0 to 9): 0
+The current wind speed of the cyclone at 0 is: 0
+Enter the new wind speed (0 - 1000): 65
+
+MAIN MENU: 
+0 - Exit, 1 - Add/Update a cyclone, 2 - Summary, 3 - Clear Database, 4 - Show Cyclones, 5 - Swap Cyclones
+Select an option: 7
+Invalid value, please, try again.
+
+MAIN MENU: 
+0 - Exit, 1 - Add/Update a cyclone, 2 - Summary, 3 - Clear Database, 4 - Show Cyclones, 5 - Swap Cyclones
+Select an option: -5
+Invalid value, please, try again.
+
+MAIN MENU: 
+0 - Exit, 1 - Add/Update a cyclone, 2 - Summary, 3 - Clear Database, 4 - Show Cyclones, 5 - Swap Cyclones
+Select an option: 1
+Enter the index (0 to 9): 2
+The current wind speed of the cyclone at 2 is: 0
+Enter the new wind speed (0 - 1000): 78
+
+MAIN MENU: 
+0 - Exit, 1 - Add/Update a cyclone, 2 - Summary, 3 - Clear Database, 4 - Show Cyclones, 5 - Swap Cyclones
+Select an option: 4
+LIST OF Cyclones' Wind Speed
+Cyclone[0]: 65
+Cyclone[1]: 0
+Cyclone[2]: 78
+Cyclone[3]: 0
+Cyclone[4]: 0
+Cyclone[5]: 0
+Cyclone[6]: 0
+Cyclone[7]: 0
+Cyclone[8]: 34
+Cyclone[9]: 0
+
+MAIN MENU: 
+0 - Exit, 1 - Add/Update a cyclone, 2 - Summary, 3 - Clear Database, 4 - Show Cyclones, 5 - Swap Cyclones
+Select an option: 2
+Cyclones’ Classification Summary
+Tropical Depression: 1
+Tropical Storm: 1
+Hurricane Category 1: 1
+Hurricane Category 2: 0
+Hurricane Category 3: 0
+Hurricane Category 4: 0
+Hurricane Category 5: 0
+
+MAIN MENU: 
+0 - Exit, 1 - Add/Update a cyclone, 2 - Summary, 3 - Clear Database, 4 - Show Cyclones, 5 - Swap Cyclones
+Select an option: 1
+Enter the index (0 to 9): 1
+The current wind speed of the cyclone at 1 is: 0
+Enter the new wind speed (0 - 1000): 134
+
+MAIN MENU: 
+0 - Exit, 1 - Add/Update a cyclone, 2 - Summary, 3 - Clear Database, 4 - Show Cyclones, 5 - Swap Cyclones
+Select an option: 1
+Enter the index (0 to 9): 3
+The current wind speed of the cyclone at 3 is: 0
+Enter the new wind speed (0 - 1000): 25
+
+MAIN MENU: 
+0 - Exit, 1 - Add/Update a cyclone, 2 - Summary, 3 - Clear Database, 4 - Show Cyclones, 5 - Swap Cyclones
+Select an option: 4
+LIST OF Cyclones' Wind Speed
+Cyclone[0]: 65
+Cyclone[1]: 134
+Cyclone[2]: 78
+Cyclone[3]: 25
+Cyclone[4]: 0
+Cyclone[5]: 0
+Cyclone[6]: 0
+Cyclone[7]: 0
+Cyclone[8]: 34
+Cyclone[9]: 0
+
+MAIN MENU: 
+0 - Exit, 1 - Add/Update a cyclone, 2 - Summary, 3 - Clear Database, 4 - Show Cyclones, 5 - Swap Cyclones
+Select an option: 5
+Enter the position from (0 to 9): 15
+Invalid value, please, try again.
+Enter the position from (0 to 9): 8
+Enter the position to change to (0 to 9) that is not 8 : 4
+
+MAIN MENU: 
+0 - Exit, 1 - Add/Update a cyclone, 2 - Summary, 3 - Clear Database, 4 - Show Cyclones, 5 - Swap Cyclones
+Select an option: 4
+LIST OF Cyclones' Wind Speed
+Cyclone[0]: 65
+Cyclone[1]: 134
+Cyclone[2]: 78
+Cyclone[3]: 25
+Cyclone[4]: 34
+Cyclone[5]: 0
+Cyclone[6]: 0
+Cyclone[7]: 0
+Cyclone[8]: 0
+Cyclone[9]: 0
+
+MAIN MENU: 
+0 - Exit, 1 - Add/Update a cyclone, 2 - Summary, 3 - Clear Database, 4 - Show Cyclones, 5 - Swap Cyclones
+Select an option: 1
+Enter the index (0 to 9): 5
+The current wind speed of the cyclone at 5 is: 0
+Enter the new wind speed (0 - 1000): 110
+
+MAIN MENU: 
+0 - Exit, 1 - Add/Update a cyclone, 2 - Summary, 3 - Clear Database, 4 - Show Cyclones, 5 - Swap Cyclones
+Select an option: 1
+Enter the index (0 to 9): 8
+The current wind speed of the cyclone at 8 is: 0
+Enter the new wind speed (0 - 1000): 98
+
+MAIN MENU: 
+0 - Exit, 1 - Add/Update a cyclone, 2 - Summary, 3 - Clear Database, 4 - Show Cyclones, 5 - Swap Cyclones
+Select an option: 4
+LIST OF Cyclones' Wind Speed
+Cyclone[0]: 65
+Cyclone[1]: 134
+Cyclone[2]: 78
+Cyclone[3]: 25
+Cyclone[4]: 34
+Cyclone[5]: 110
+Cyclone[6]: 0
+Cyclone[7]: 0
+Cyclone[8]: 98
+Cyclone[9]: 0
+
+MAIN MENU: 
+0 - Exit, 1 - Add/Update a cyclone, 2 - Summary, 3 - Clear Database, 4 - Show Cyclones, 5 - Swap Cyclones
+Select an option: 5
+Enter the position from (0 to 9): 9
+Enter the position to change to (0 to 9) that is not 9 : 8
+
+MAIN MENU: 
+0 - Exit, 1 - Add/Update a cyclone, 2 - Summary, 3 - Clear Database, 4 - Show Cyclones, 5 - Swap Cyclones
+Select an option: 2
+Cyclones’ Classification Summary
+Tropical Depression: 2
+Tropical Storm: 1
+Hurricane Category 1: 1
+Hurricane Category 2: 2
+Hurricane Category 3: 0
+Hurricane Category 4: 1
+Hurricane Category 5: 0
+
+MAIN MENU: 
+0 - Exit, 1 - Add/Update a cyclone, 2 - Summary, 3 - Clear Database, 4 - Show Cyclones, 5 - Swap Cyclones
+Select an option: 1
+Enter the index (0 to 9): 6
+The current wind speed of the cyclone at 6 is: 0
+Enter the new wind speed (0 - 1000): 25
+
+MAIN MENU: 
+0 - Exit, 1 - Add/Update a cyclone, 2 - Summary, 3 - Clear Database, 4 - Show Cyclones, 5 - Swap Cyclones
+Select an option: 2
+Cyclones’ Classification Summary
+Tropical Depression: 3
+Tropical Storm: 1
+Hurricane Category 1: 1
+Hurricane Category 2: 2
+Hurricane Category 3: 0
+Hurricane Category 4: 1
+Hurricane Category 5: 0
+
+MAIN MENU: 
+0 - Exit, 1 - Add/Update a cyclone, 2 - Summary, 3 - Clear Database, 4 - Show Cyclones, 5 - Swap Cyclones
+Select an option: 4
+LIST OF Cyclones' Wind Speed
+Cyclone[0]: 65
+Cyclone[1]: 134
+Cyclone[2]: 78
+Cyclone[3]: 25
+Cyclone[4]: 34
+Cyclone[5]: 110
+Cyclone[6]: 25
+Cyclone[7]: 0
+Cyclone[8]: 0
+Cyclone[9]: 98
+
+MAIN MENU: 
+0 - Exit, 1 - Add/Update a cyclone, 2 - Summary, 3 - Clear Database, 4 - Show Cyclones, 5 - Swap Cyclones
+Select an option: 3
+
+MAIN MENU: 
+0 - Exit, 1 - Add/Update a cyclone, 2 - Summary, 3 - Clear Database, 4 - Show Cyclones, 5 - Swap Cyclones
+Select an option: 4
+LIST OF Cyclones' Wind Speed
+Cyclone[0]: 0
+Cyclone[1]: 0
+Cyclone[2]: 0
+Cyclone[3]: 0
+Cyclone[4]: 0
+Cyclone[5]: 0
+Cyclone[6]: 0
+Cyclone[7]: 0
+Cyclone[8]: 0
+Cyclone[9]: 0
+
+MAIN MENU: 
+0 - Exit, 1 - Add/Update a cyclone, 2 - Summary, 3 - Clear Database, 4 - Show Cyclones, 5 - Swap Cyclones
+Select an option: 1
+Enter the index (0 to 9): 0
+The current wind speed of the cyclone at 0 is: 0
+Enter the new wind speed (0 - 1000): 100
+
+MAIN MENU: 
+0 - Exit, 1 - Add/Update a cyclone, 2 - Summary, 3 - Clear Database, 4 - Show Cyclones, 5 - Swap Cyclones
+Select an option: 4
+LIST OF Cyclones' Wind Speed
+Cyclone[0]: 100
+Cyclone[1]: 0
+Cyclone[2]: 0
+Cyclone[3]: 0
+Cyclone[4]: 0
+Cyclone[5]: 0
+Cyclone[6]: 0
+Cyclone[7]: 0
+Cyclone[8]: 0
+Cyclone[9]: 0
+
+MAIN MENU: 
+0 - Exit, 1 - Add/Update a cyclone, 2 - Summary, 3 - Clear Database, 4 - Show Cyclones, 5 - Swap Cyclones
+Select an option: 0
