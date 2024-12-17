@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", function () {
     const petDetailsContainer = document.querySelector("#pet-details-container");
-    const API_KEY = 'Es1zqvQv'; // Replace with your actual API key
+    const API_KEY = 'API_KEY'; // Replace with your actual API key
     const API_URL = 'https://api.rescuegroups.org/v5/public/animals/';
 
     // Get the pet ID from the URL
