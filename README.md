@@ -10,3 +10,6 @@ Developed a Java-based Cyclone Management System featuring an interactive main m
 
 WIP_PetCloudWebsite_API_Usage
 Currently developing a responsive Pet Adoption Website using HTML, CSS, and JavaScript. The project incorporates API integration to display real-time pet listings, with features like search, filters, and dynamic content updates to enhance user interactivity and navigation. 
+
+Rivaldle Website (private shared code)
+but you can find the website at www.rivaldle.com
